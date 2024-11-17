@@ -36,3 +36,7 @@ pip install -r requirements.txt
 ```
 
 # abhinav-pymongo
+
+-- Install Mongodb
+-- Install Compass
+-- JSON

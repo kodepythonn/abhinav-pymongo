@@ -2,7 +2,7 @@
 
 ```
 -- 1
-python -m venv venv
+python2 -m venv venv
 
 -- 2 in windows
 venv\Scripts\activate
@@ -24,5 +24,15 @@ git branch -M main
 git remote add origin https://github.com/kodepythonn/abhinav-pymongo.git
 git push -u origin main
 
+
+-- 6 Add Mongo Depdenncy
+# Core dependencies
+pymongo==4.5.0  # Library to interact with MongoDB
+
+-- 7 Update Dependncy
+pip install -r requirements.txt
+
+
 ```
+
 # abhinav-pymongo

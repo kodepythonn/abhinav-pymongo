@@ -1,5 +1,7 @@
 # Core dependencies
 pymongo==4.5.0  # Library to interact with MongoDB
+Flask>=2.0
 
 # Environment management
 python-dotenv==1.0.0  # To manage environment variables from a .env file
+

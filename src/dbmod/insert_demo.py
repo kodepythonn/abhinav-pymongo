@@ -16,7 +16,7 @@ def mongo_insert1_demo():
     db = client["abhidemo"]  
     collection = db["users"] 
     
-    username = input("Enter Username")
+    username = "abcd"
     
     document = {"name" : username, "age": 21, "id":3}
     result = collection.insert_one(document)

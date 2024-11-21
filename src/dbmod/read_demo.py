@@ -7,4 +7,8 @@ def read_all_user():
     
     user_cursor = collection.find() 
     users_list = list(user_cursor)
+    
+    for item in users_list:
+        item["_id"] = str(item["_id"])
+    
     return users_list

@@ -32,6 +32,10 @@ pymongo==4.5.0  # Library to interact with MongoDB
 -- 7 Update Dependncy
 pip install -r requirements.txt
 
+-- 8
+Flask>=2.0
+pip install -r requirements.txt
+
 
 ```
 
